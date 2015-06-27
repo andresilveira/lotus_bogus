@@ -1,2 +1,4 @@
 /db/lotus_bogus_development
 /db/lotus_bogus_test
+
+.*.sw?

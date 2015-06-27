@@ -3,5 +3,9 @@ ENV['LOTUS_ENV'] ||= 'test'
 
 require_relative '../config/environment'
 require 'minitest/autorun'
+require 'minitest/pride'
+require 'minitest/reporters'
+
+Minitest::Reporters.use!
 
 Lotus::Application.preload!
